@@ -1,0 +1,34 @@
+<div class="row ">
+    <div class="col-12 form-part">
+        <div class="row ">
+
+            <div class="col-3 "></div>
+
+            <div class="col-6 form">
+                <div class="row">
+                    <div class="col-12" class="parameters"><b class="bottom-top">Parametry:</b></div>
+                    <div class="col-12">
+                        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                            <b class="word">Nazwa symulacji</b> <br><input id="N" type="string" class="input" formControlName="N"><br>
+                            <b class="word">Wielkość populacji</b> <br><input id="P" type="int" class="input" formControlName="P"><br>
+                            <b class="word">Początkowa liczba osób zarażonych</b> <br><input id="I" type="int" class="input" formControlName="I"><br>
+                            <b class="word">Covidowy wskaźnik R</b> <br><input id="R" type="int" class="input" formControlName="R"><br>
+                            <b class="word">Wskaźnik śmiertelności</b> <br><input id="M" type="int" class="input" formControlName="M"><br>
+                            <b class="word">Ilość dni, która upływa od momentu zarażenia do wyzdrowienia chorego</b> <br><input id="Ti" type="int" class="input" formControlName="Ti"><br>
+                            <b class="word">Ilość dni, która upływa od momentu zarażenia do śmierci chorego</b> <br><input id="Tm" type="int" class="input" formControlName="Tm"><br>
+                            <b class="word">Ilość dni, dla których ma być przeprowadzona symulacja</b> <br><input id="Ts" type="int" class="input" formControlName="Ts"><br>
+                            <div class="col-12 "><button class="bottom-top" type="submit" routerLink="/result-page">Create</button></div>
+                        </form>
+
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="col-3"></div>
+
+        </div>
+    </div>
+</div>
+

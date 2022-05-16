@@ -1,0 +1,13 @@
+.all
+{
+    background-image: linear-gradient( white, #A39FE9);
+}
+.result
+{
+    background-color: white;
+    height: 700px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+

@@ -1,0 +1,47 @@
+.footer
+{
+    background-image: linear-gradient(to bottom right, #CCE8DA, #65ADC3);
+    background-color: white;
+}
+
+.logo
+{
+    font-size: x-large;
+    color: #433D9F;
+}
+
+.description
+{
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    font-size: x-large;
+}
+
+.footer-right
+{
+    height: 290px;
+    margin-top: 10px;
+}
+
+.footer-cat
+{
+    font-size: x-large;
+    color: #433D9F;
+    font-weight: bold;
+}
+
+.footer-inside-cat
+{
+    font-size:large;
+    color: #433D9F;
+    margin-top: 10px;
+}
+
+.footer-bottom
+{
+    text-align: right;
+}
+
+
